@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 import fs from 'fs'
 let handler = async (m, { conn, args, command }) => {
-  const ultah = new Date('Februari 2 2023 00:0:01')
+  const ultah = new Date('Februari 4 2023 00:0:01')
     const sekarat = new Date().getTime() 
     const Kurang = ultah - sekarat
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
@@ -18,7 +18,7 @@ contextInfo: { externalAdReply :{
                         mediaUrl: '',
                         mediaType: 2,
                         description: 'anu',
-                        title: `A PUTRA🎧 : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+                        title: `A Barbatos 🎧 : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
                         body: `Join Grup`,          previewType: 0,
                         thumbnail: await (await fetch(`https://i.ibb.co/jbHnwDr/20221218-011857.jpg`)).buffer(),
                         sourceUrl: 'https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff'
